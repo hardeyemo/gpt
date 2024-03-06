@@ -672,7 +672,7 @@ footer{
 .resev{
     color: #FFFFFF;;
 }
-@media screen and(max-width: 950px){
+/* @media screen and(max-width: 950px){
     nav{
         font-size: 13px;
         justify-content: center;
@@ -976,4 +976,4 @@ footer{
 .pp{
     width: 80vw;
 }
-
+ */
