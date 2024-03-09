@@ -40,7 +40,7 @@ li:hover{
     font-size: 20px;
     border: none;
 }
-:hover.inside button{
+.inside button:hover{
    background-color: transparent;
    transition: 0.2s ease-in-out all;
 }
@@ -48,13 +48,12 @@ li:hover{
     display: flex;
     align-items: center;
     gap: 20px;
-    p{
-        color: #FFFFFF;
-    }
+}
+.inside p{
+    color: #FFFFFF;
 }
 section{
     background-color: #040C18;
-    /* width: 100%; */
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -141,21 +140,21 @@ section{
     display: flex;
     justify-content: center;
     gap: 13%;
-    p{
-        width: 48vw;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 30px;
-        color: #81AFDD;
-    }
-.rec{
+}
+.ftext p{
+    width: 48vw;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #81AFDD;
+}
+.ftext rec{
     display: flex;
     flex-direction: column;
     gap: 20px;
     img{
         width: 2.5vw;
     }
-}
 }
 .rech{
     font-weight: 800;
@@ -168,20 +167,20 @@ section{
     justify-content: center;
     align-items: center;
     gap: 38%;
-    h1{
-        width: 30vw;
-        font-weight: 850;
-        font-size: 40px;
-        background: -webkit-linear-gradient(left, #AE67FA, #F49867);
-        -webkit-background-clip: text;
-        color: transparent;
-    }
-    p{
-        font-weight: 500;
-        font-size: 23px;
-        color: #FF8A71;
-        width: 15vw;
-    }
+}
+.stext h1{
+    width: 30vw;
+    font-weight: 850;
+    font-size: 40px;
+    background: -webkit-linear-gradient(left, #AE67FA, #F49867);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.stext p{
+    font-weight: 500;
+    font-size: 23px;
+    color: #FF8A71;
+    width: 15vw;
 }
 .ttext{
     display: flex;
@@ -194,14 +193,14 @@ section{
     img{
         width: 2.5vw;
     }
-    h1{
-        font-weight: 800;
-        font-size: 30px;
-        color: #FFFFFF;
+    .fp{
+        width: 18vw;
     }
-.fp{
-    width: 18vw;
 }
+.rec1 h1{
+    font-weight: 800;
+    font-size: 30px;
+    color: #FFFFFF;
 }
 .rec2{
     display: flex;
@@ -210,14 +209,14 @@ section{
     img{
         width: 2.5vw;
     }
-    h1{
-        font-weight: 800;
-        font-size: 30px;
-        color: #FFFFFF;
+    .sp{
+        width: 20vw;
     }
-.sp{
-        width: 18vw;
-    }
+}
+.rec2 h1{
+    font-weight: 800;
+    font-size: 30px;
+    color: #FFFFFF;
 }
 .rec3{
     display: flex;
@@ -231,8 +230,8 @@ section{
         font-size: 30px;
         color: #FFFFFF;
     }
-.tp{
-        width: 18vw;
+    .tp{
+        width: 20vw;
     }
 }
 .chat{
@@ -282,20 +281,20 @@ section{
     display: flex;
     flex-direction: column;
     gap: 23px;
-    h1{
-        width: 23vw;
-        font-weight: 800;
-        font-size: 35px;
-        background: -webkit-linear-gradient(left, #AE67FA, #F49867);
-        -webkit-background-clip: text;
-        color: transparent; 
-    }
-    p{
-        font-weight: 500;
-        font-size: 20px;
-        color: #FF8A71;
-        cursor: pointer;
-    }
+}
+.left h1{
+    width: 23vw;
+    font-weight: 800;
+    font-size: 35px;
+    background: -webkit-linear-gradient(left, #AE67FA, #F49867);
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+.left p{
+    font-weight: 500;
+    font-size: 20px;
+    color: #FF8A71;
+    cursor: pointer;
 }
 .middle{
     display: flex;
@@ -343,30 +342,29 @@ section{
     width: 22vw;
     font-size: 16px;
 }
-.sec5 img{
+.pix{
     width: 40vw;
 }
 .sec5{
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    padding: 30px 0px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 30px 0;
 }
 .getstarted{
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    h1{
-        background: -webkit-linear-gradient(left, #AE67FA, #F49867);
-        -webkit-background-clip: text;
-        color: transparent; 
-        font-weight: 800;
-        font-size: 50px; 
-        width: 33vw;
-    }
-    p{
-        width: 28vw;
-    }
+}
+.getstarted h1{
+    background: -webkit-linear-gradient(left, #AE67FA, #F49867);
+    -webkit-background-clip: text;
+    color: transparent; 
+    font-weight: 800;
+    font-size: 50px; 
+    width: 33vw;
+}
+.getstarted p{
+    width: 28vw;
 }
 .rp{
         font-weight: 500;
@@ -378,6 +376,7 @@ section{
         font-weight: 400;
         font-size: 20px; 
         color: #81AFDD;
+        width: 40vw;
 }
 .ep{
         font-weight: 500;
@@ -391,29 +390,29 @@ section{
     display: flex;
     gap: 25%;
     justify-content: center;
-    padding: 50px 0px;
+    padding: 50px  0px;
     border-radius: 10px;
-    h1{
-        font-weight: 800;
-        font-size: 30px;
-        color: #000000;
-    }
-    p{
-        font-weight: 500;
-        font-size: 15px;
-        color: #0E0E0E;
-        cursor: pointer;
-    }
-    button{
-        background-color: #0E0E0E;
-        padding: 20px 40px;
-        color: #FFFFFF;
-        font-weight: 700;
-        font-size: 20px;
-        border-radius: 40px;
-        border: none;
-        cursor: pointer;
-    }
+}
+.sec6 h1{
+    font-weight: 800;
+    font-size: 30px;
+    color: #000000;
+}
+.sec6 p{
+    font-weight: 500;
+    font-size: 15px;
+    color: #0E0E0E;
+    cursor: pointer;
+}
+.sec6 button{
+    background-color: #0E0E0E;
+    padding: 20px 40px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
 }
 .sec6 :hover{
     background-color: transparent;
@@ -672,308 +671,267 @@ footer{
 .resev{
     color: #FFFFFF;;
 }
-/* @media screen and(max-width: 950px){
-    nav{
-        font-size: 13px;
-        justify-content: center;
-        gap: 5px;
-        img{
-            width: 10vw;
-        }
-    }
-    .inside{
-        p{
-            font-size: 15px;
-        }
-        button{
-            font-size: 15px;
-            padding: 0px 10px;
-            width: 10vw;
-            border: none;
-        }
-    }
-    ul{
-        gap: 8px;
-    }
-    .sec1{
-        flex-direction: column-reverse;
-        img{
-            width: 90vw;
-        }
-    }
-    .lets{
-        display: flex;
-        align-items: center;
-        text-align: center;
-        h1{
-            width: 100vw;
-            font-size: 50px;
-        }
-        p{
-            width: 100vw;
-            font-size: 20px;
-        }
-    }
-    .inpbut{
-        input{
-            padding: 20px 10px;
-            font-size: 15px;
-        }
-        button{
-            padding: 10px 20px;
-            font-size: 15px;
-        }
-    }
-    .images{
-        justify-content: center;
-        width: 10vw;
-    }
-    .flex{
-        flex-direction: column;
-        p{
-            width: 90vw;
-            font-size: 15px;
-        }
-    }
-    .sec2{
-        
-    }
-    .sec2 img{
-        width: 6vw;
-    }
-    .sec3{
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        width: 100%
-    }
-    .ftext{
-        flex-direction: column;
-        
-        p{
-            width: 95vw;
-            font-size: 18px;
-        }
-    }
-.rec{
-        align-items: center;
-    }
 
-.rech{
-        width: 40vw;
-    }
-    .stext{
-        flex-direction: column;
-        gap: 20px;
-        p{
-           width: 70vw;
-        }
-        h1{
-            width: 100vw;
-            font-size: 40px;
-        }
-    }
-.ttext{
-        flex-direction: column;
-    }
-.rec1{
-        gap: 10px;
-    }
-.rec1 fp{
-        width: 100vw;
-    }
-    .chat{
-        gap: 10px;
-        align-items: center;
-        img{
-            width: 10vw;
-        }
-    }
-    .rec2{
-        gap: 10px;
-    .sp{
-        width: 100vw;
-    }
-    }
-    .know{
-        gap: 10px;
-        align-items: center;
-        img{
-            width: 10vw;
-        }
-    }
-    .rec3{
-        gap: 10px;
-        .tp{
-            width: 100vw;
-        }
-    }
-    .edu{
-        gap: 10px;
-        align-items: center;
-        img{
-            width: 10vw;
-        }
-    }
-    .sec4{
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 40px;
-    }
-    .left
-        h1{
-            width: 100vw;
-            font-size: 35px;
-        }
-    .fh{
-        width: 80vw;
-    } 
-    .fhimg img{
-        width: 12vw;
-    }
-    .sh{
-        width: 70vw;
-    } 
-    .shimg img{
-        width: 12vw;
-    }
-    .th{
-        width: 70vw;
-    } 
-    .thimg img{
-        width: 12vw;
-    }
-    .foh{
-        width: 70vw;
-    } 
-    .fohimg img{
-        width: 12vw;
-    }
-    }
-    .fpp{
-        width: 100vw;
-    }
-    .spp{
-        width: 100vw;
-    }
-    .tpp{
-        width: 100vw;
-    }
-    .fopp{
-        width: 100vw;
-    }
-    .sec5{
-        gap: 30px;
-        flex-direction: column;
-        img{
-            width: 90vw;
-        }
-    }
-    .getstarted{
-        align-items: center;
-        text-align: center;
-        h1{
-            width: 90vw;
-        }
-    }
-    .yp{
-        width: 98vw;
-    }
-    .ep{
-        width: 80vw;
-    }
-    .sec6{
-        flex-direction: column;
-        width: 90%;
-        align-items: center;
-        text-align: center;
-    }
-    .sec7{
-        align-items: center;
-        text-align: center;
-        margin-left: 180px;
-        h1{
-            width: 100vw;
-            font-size: 38px;
-        }
-    }
-.sec8{
+@media screen and (max-width:950px) {
+.sec1 img{
+    width: 90vw;
+}
+nav{
+    display: none;
+}
+.sec1{
+    flex-direction: column-reverse;
+}
+.lets h1{
+    width: 90vw;
+}
+.lets p{
+    width: 90vw;
+}
+.lets{
+    align-items: center;
+    text-align: center;
+}
+.flex{
+    flex-direction: column;
+}
+.ftext{
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    text-align: center;
+    gap: 20px;
 }
-.rectangle1{
-    width: 80%;
-    img{
-        width: 81.5vw;
-    }
-    h1{
+.ftext p{
+    width: 80vw;
+} 
+.ftext h1{
+    width: 30vw;
+} 
+.stext{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.stext p{
+    width: 80vw;
+} 
+.stext h1{
+    width: 90vw;
+}
+.ttext{
+    flex-direction: column;
+    gap: 50px;
+} 
+.rec1{
+    align-items: center;
+    text-align: center;
+    .fp{
         width: 80vw;
     }
 }
-.rectangle2{
-    width: 80%;
-    img{
-        width: 80vw;
-    }
-    h1{
+.chat{
+    align-items: center;
+    gap: 5px;
+}
+.chat img{
+    width: 8vw;
+}
+.rec2{
+    align-items: center;
+    text-align: center;
+    .sp{
         width: 80vw;
     }
 }
-.rectangle3{
-    width: 80%;
-    img{
+.know{
+    align-items: center;
+    gap: 5px;
+}
+.know img{
+    width: 8vw;
+}
+.rec3{
+    align-items: center;
+    text-align: center;
+    .tp{
         width: 80vw;
     }
-    h1{
-        width: 78vw;
+}
+.edu{
+    align-items: center;
+    gap: 5px;
+}
+.edu img{
+    width: 8vw;
+}
+.tp{
+    width: 100vw;
+}
+.sec4{
+    flex-direction: column;
+    gap: 50px;
+}
+.left{
+    align-items: center;
+    text-align: center;
+}
+.left h1{
+    width: 90vw;
+}
+.middle{
+    align-items: center;
+    text-align: center;
+}
+.fhimg h1{
+    width: 50vw;
+}
+.shimg h1{
+    width: 50vw;
+}
+.thimg h1{
+    width: 50vw;
+}
+.fohimg h1{
+    width: 50vw;
+}
+.right{
+    align-items: center;
+    text-align: center;
+    p{
+        width: 85vw;
     }
 }
-.rectangle4{
-    width: 92%;
-    img{
-        width: 91vw;
-    }
-    h1{
-        width: 90vw;
-    }
+.right fpp{
+    width: 90vw;
 }
-.rectangle5{
-    width: 92%;
-    img{
-        width: 91vw;
-    }
-    h1{
-        width: 90vw;
-    }
+.sec5{
+   flex-direction: column;
+   gap: 50px;
+}
+.getstarted{
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.sec5 img{
+    width: 70vw;
+}
+.getstarted h1{
+    width: 80vw;
+}
+.getstarted p{
+    width: 90vw;
+}
+.sec6{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0px;
+    width: 90vw;
+}
+.sec6 h1{
+    width: 80vw;
+}
+.sec7 h1{
+    width: 80vw;
+    font-size: 40px;
+   margin-left: 300px;
+}
+.sec8{
+    flex-direction: column;
+}
+.rectangle1 img{
+    width: 80vw;
+}
+.art1{
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+}
+.sep1 h1{
+    width: 70vw;
+}
+.rectangle2 img{
+    width: 80vw;
+}
+.art2{
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+}
+.sep2 h1{
+    width: 70vw;
+}
+.rectangle3 img{
+    width: 80vw;
+}
+.art3{
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+}
+.sep3 h1{
+    width: 70vw;
+}
+.rectangle4 img{
+    width: 80vw;
+}
+.art4{
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+}
+.sep4 h1{
+    width: 70vw;
+}
+.rectangle5 img{
+    width: 80vw;
+}
+.art5{
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+}
+.sep5 h1{
+    width: 70vw;
 }
 .sec9{
+    align-items: center;
     text-align: center;
-    h1{
-        width: 90vw;
-        font-size: 40px;
-    }
 }
-footer{
-    gap: 80px;
+.sec9 h1{
+    width: 100vw;
 }
 .foot{
     flex-direction: column;
-    align-items: center;
     text-align: center;
+    align-items: center;
     gap: 80px;
+}
+.foot p{
+    font-size: 18px;
+}
+.gtpng img{
+    width: 15vw;
+}
+.gtpng p{
+    width: 70vw;
 }
 .gtpng{
     align-items: center;
-    img{
-        width: 20vw;
-    }
-    p{
-        width: 80vw;
-    }
 }
 .pp{
-    width: 80vw;
+    width: 50vw;
 }
- */
+
+
+
+
+
+
+
+
+
+
+}
