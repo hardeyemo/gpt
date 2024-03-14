@@ -19,7 +19,6 @@ nav img{
 }
 li{
     cursor: pointer;
-    text-shadow: 3px 3px red;
 }
 ul{
     display: flex;
@@ -51,6 +50,12 @@ li:hover{
 }
 .inside p{
     color: #FFFFFF;
+    cursor: pointer;
+}
+.inside p:hover{
+    color: rgb(228, 198, 198);
+    transition: ease 0.3s;
+
 }
 section{
     background-color: #040C18;
@@ -101,6 +106,10 @@ section{
     position: relative;
     right: 5px;
     cursor: pointer;
+}
+.inpbut button:hover{
+    color: black;
+
 }
 .inpbut{
     display: flex;
@@ -282,6 +291,18 @@ section{
     flex-direction: column;
     gap: 23px;
 }
+.rec img{
+    width: 3vw;
+}
+.chat img{
+    width: 3vw;
+}
+.know img{
+    width: 3vw;
+}
+.edu img{
+    width: 3vw;
+}
 .left h1{
     width: 23vw;
     font-weight: 800;
@@ -388,9 +409,8 @@ section{
     width: 80%;
     background: -webkit-linear-gradient(right, #F49867, #AE67FA);
     display: flex;
-    gap: 25%;
-    justify-content: center;
-    padding: 50px  0px;
+    justify-content: space-between;
+    padding: 50px  30px;
     border-radius: 10px;
 }
 .sec6 h1{
@@ -575,14 +595,14 @@ section{
     gap: 20px;
 }
 .sec7{
-    margin-right: 41%;
+    margin-right: 40%;
     h1{
         font-weight: 800;
         font-size: 63px;
         background: -webkit-linear-gradient(left, #AE67FA, #F49867);
         -webkit-background-clip: text;
         color: transparent;
-        width: 38vw;
+        width: 40vw;
     }
 }
 .sec9{
@@ -673,17 +693,22 @@ footer{
 }
 
 @media screen and (max-width:950px) {
+section{
+    overflow-x: hidden;
+}
 .sec1 img{
-    width: 90vw;
+    width: 80vw;
 }
 nav{
     display: none;
 }
+
 .sec1{
     flex-direction: column-reverse;
 }
 .lets h1{
     width: 90vw;
+    font-size: 30px;
 }
 .lets p{
     width: 90vw;
@@ -692,8 +717,18 @@ nav{
     align-items: center;
     text-align: center;
 }
+.inpbut input{
+    padding: 20px 20px;
+    font-size: 16px;
+}
+.inpbut button{
+    padding: 10px 10px;
+}
 .flex{
     flex-direction: column;
+}
+.sec3{
+    width: 100%;
 }
 .ftext{
     flex-direction: column;
@@ -702,10 +737,10 @@ nav{
     gap: 20px;
 }
 .ftext p{
-    width: 80vw;
+    width: 100vw;
 } 
 .ftext h1{
-    width: 30vw;
+    width: 50vw;
 } 
 .stext{
     flex-direction: column;
@@ -714,20 +749,23 @@ nav{
     gap: 20px;
 }
 .stext p{
-    width: 80vw;
+    width: 70vw;
 } 
 .stext h1{
-    width: 90vw;
+    width: 100vw;
 }
 .ttext{
     flex-direction: column;
     gap: 50px;
 } 
+.rec img{
+    width: 15vw;
+}
 .rec1{
     align-items: center;
     text-align: center;
     .fp{
-        width: 80vw;
+        width: 90vw;
     }
 }
 .chat{
@@ -735,13 +773,13 @@ nav{
     gap: 5px;
 }
 .chat img{
-    width: 8vw;
+    width: 15vw;
 }
 .rec2{
     align-items: center;
     text-align: center;
     .sp{
-        width: 80vw;
+        width: 95vw;
     }
 }
 .know{
@@ -749,13 +787,13 @@ nav{
     gap: 5px;
 }
 .know img{
-    width: 8vw;
+    width: 15vw;
 }
 .rec3{
     align-items: center;
     text-align: center;
     .tp{
-        width: 80vw;
+        width: 95vw;
     }
 }
 .edu{
@@ -763,10 +801,10 @@ nav{
     gap: 5px;
 }
 .edu img{
-    width: 8vw;
+    width: 15vw;
 }
 .tp{
-    width: 100vw;
+    width: 120vw;
 }
 .sec4{
     flex-direction: column;
@@ -777,7 +815,7 @@ nav{
     text-align: center;
 }
 .left h1{
-    width: 90vw;
+    width: 95vw;
 }
 .middle{
     align-items: center;
@@ -786,24 +824,33 @@ nav{
 .fhimg h1{
     width: 50vw;
 }
+.fhimg img{
+    width: 15vw;
+}
 .shimg h1{
     width: 50vw;
+}
+.shimg img{
+    width: 15vw;
 }
 .thimg h1{
     width: 50vw;
 }
+.thimg img{
+    width: 15vw;
+}
 .fohimg h1{
     width: 50vw;
+}
+.fohimg img{
+    width: 15vw;
 }
 .right{
     align-items: center;
     text-align: center;
     p{
-        width: 85vw;
+        width: 95vw;
     }
-}
-.right fpp{
-    width: 90vw;
 }
 .sec5{
    flex-direction: column;
@@ -819,6 +866,7 @@ nav{
 }
 .getstarted h1{
     width: 80vw;
+    font-size: 30px;
 }
 .getstarted p{
     width: 90vw;
@@ -828,18 +876,20 @@ nav{
     align-items: center;
     text-align: center;
     padding: 20px 0px;
+    gap: 20px;
     width: 90vw;
 }
 .sec6 h1{
-    width: 80vw;
+    width: 90vw;
 }
 .sec7 h1{
-    width: 80vw;
-    font-size: 40px;
-   margin-left: 300px;
+    width: 90vw;
+    font-size: 30px;
+   margin-left: 200px;
 }
 .sec8{
     flex-direction: column;
+    gap: 50px;
 }
 .rectangle1 img{
     width: 80vw;
@@ -899,9 +949,14 @@ nav{
 .sec9{
     align-items: center;
     text-align: center;
+    gap: 20px;
 }
 .sec9 h1{
-    width: 100vw;
+    width: 90vw;
+    font-size: 30px;
+}
+footer{
+    gap: 50px;
 }
 .foot{
     flex-direction: column;
