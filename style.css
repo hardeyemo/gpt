@@ -202,9 +202,10 @@ section{
     img{
         width: 2.5vw;
     }
-    .fp{
-        width: 18vw;
-    }
+}
+.rec1 p{
+    width: 15vw;
+    color: #FFFFFF;
 }
 .rec1 h1{
     font-weight: 800;
@@ -218,9 +219,11 @@ section{
     img{
         width: 2.5vw;
     }
-    .sp{
-        width: 20vw;
-    }
+}
+.rec2 p{
+    width: 15vw;
+    color: #FFFFFF;
+    
 }
 .rec2 h1{
     font-weight: 800;
@@ -239,9 +242,10 @@ section{
         font-size: 30px;
         color: #FFFFFF;
     }
-    .tp{
-        width: 20vw;
-    }
+}
+.rec3 p{
+    width: 20vw;
+    color: #FFFFFF;
 }
 .chat{
     display: flex;
@@ -257,6 +261,7 @@ section{
     display: flex;
     flex-direction: column;
     gap: 15px;
+    color: #FFFFFF;
 }
 .fp{
     width: 18vw;
@@ -351,15 +356,15 @@ section{
     width: 23vw;
     font-size: 16px;
 }
-.spp{
+.right spp{
     width: 10vw;
     font-size: 16px;
 }
-.tpp{
+.right tpp{
     width: 22vw;
     font-size: 16px;
 }
-.fopp{
+.right fopp{
     width: 22vw;
     font-size: 16px;
 }
@@ -692,7 +697,7 @@ footer{
     color: #FFFFFF;;
 }
 
-@media screen and (max-width:950px) {
+@media screen and (max-width: 950px) {
 section{
     overflow-x: hidden;
 }
@@ -702,7 +707,6 @@ section{
 nav{
     display: none;
 }
-
 .sec1{
     flex-direction: column-reverse;
 }
@@ -737,7 +741,7 @@ nav{
     gap: 20px;
 }
 .ftext p{
-    width: 100vw;
+    width: 95vw;
 } 
 .ftext h1{
     width: 50vw;
@@ -764,9 +768,9 @@ nav{
 .rec1{
     align-items: center;
     text-align: center;
-    .fp{
-        width: 90vw;
-    }
+}
+.rec1 p{
+    width: 90vw;
 }
 .chat{
     align-items: center;
@@ -778,9 +782,9 @@ nav{
 .rec2{
     align-items: center;
     text-align: center;
-    .sp{
-        width: 95vw;
-    }
+}
+.rec2 p{
+    width: 95vw;
 }
 .know{
     align-items: center;
@@ -792,9 +796,9 @@ nav{
 .rec3{
     align-items: center;
     text-align: center;
-    .tp{
-        width: 95vw;
-    }
+}
+.rec3 p{
+    width: 95vw;
 }
 .edu{
     align-items: center;
@@ -848,9 +852,9 @@ nav{
 .right{
     align-items: center;
     text-align: center;
-    p{
-        width: 95vw;
-    }
+}
+.right p{
+    width: 95vw;
 }
 .sec5{
    flex-direction: column;
@@ -979,14 +983,4 @@ footer{
 .pp{
     width: 50vw;
 }
-
-
-
-
-
-
-
-
-
-
 }
