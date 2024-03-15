@@ -601,14 +601,14 @@ section{
 }
 .sec7{
     margin-right: 40%;
-    h1{
-        font-weight: 800;
-        font-size: 63px;
-        background: -webkit-linear-gradient(left, #AE67FA, #F49867);
-        -webkit-background-clip: text;
-        color: transparent;
-        width: 40vw;
-    }
+}
+.sec7 h1{
+    font-weight: 800;
+    font-size: 63px;
+    background: -webkit-linear-gradient(left, #AE67FA, #F49867);
+    -webkit-background-clip: text;
+    color: transparent;
+    width: 40vw;
 }
 .sec9{
     display: flex;
@@ -617,25 +617,24 @@ section{
     align-items: center;
     text-align: center;
     gap: 60px;
-   
-    h1{
-        width: 42vw;
-        font-weight: 800;
-        font-size: 63px;
-        background: -webkit-linear-gradient(left, #AE67FA, #F49867);
-        -webkit-background-clip: text;
-        color: transparent;
-        width: 45vw;
-    }
-    p{
-        font-size: 20px;
-        background-color: #031B34;
-        border: 1px solid#FFFFFF;
-        color: #FFFFFF;
-        width: fit-content;
-        cursor: pointer;
-        padding: 15px;
-    }
+}
+.sec9 h1{
+    width: 42vw;
+    font-weight: 800;
+    font-size: 63px;
+    background: -webkit-linear-gradient(left, #AE67FA, #F49867);
+    -webkit-background-clip: text;
+    color: transparent;
+    width: 45vw;
+}
+.sec9 p{
+    font-size: 20px;
+    background-color: #031B34;
+    border: 1px solid#FFFFFF;
+    color: #FFFFFF;
+    width: fit-content;
+    cursor: pointer;
+    padding: 15px;
 }
 footer{
     display: flex;
@@ -966,7 +965,7 @@ footer{
     flex-direction: column;
     text-align: center;
     align-items: center;
-    gap: 80px;
+    gap: 50px;
 }
 .foot p{
     font-size: 18px;
@@ -983,4 +982,16 @@ footer{
 .pp{
     width: 50vw;
 }
+.comp{
+    gap: 10px;
+}
+.link{
+    gap: 10px;
+}
+.get{
+    gap: 10px;
+}
+
+
+
 }
